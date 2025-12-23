@@ -1,15 +1,45 @@
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.venv/
+.ENV/
 
+# Build and distribution artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+*.so
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
 *.log
-/dff_sample
-/gui/__pycache__
-/core/__pycache__
-/utils/__pycache__
-/components/__pycache__
-/openrw
-/methods/__pycache__
-/methods/__pycache__
-gui/gui_layout_old.py
-gitimgtree.git
-/Assists/Dump
-*.py-old
-/.old_put_aside
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
