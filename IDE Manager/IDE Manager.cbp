@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IDEManager" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="IDE Manager" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add directory="../File Parser/Source/" />
+					<Add directory="../File Writer/Source/" />
+					<Add directory="../String Utility/Source/" />
+					<Add directory="$(IncludePath)" />
+				</Compiler>
+				<Linker>
+					<Add directory="../Static Libraries" />
+					<Add directory="$(LibraryPath)" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="IDE Manager" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add directory="../File Parser/Source/" />
+					<Add directory="../File Writer/Source/" />
+					<Add directory="../String Utility/Source/" />
+					<Add directory="$(IncludePath)" />
+				</Compiler>
+				<Linker>
+					<Add directory="../Static Libraries" />
+					<Add directory="$(LibraryPath)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Source/CIDEFile.cpp" />
+		<Unit filename="Source/CIDEFile.h" />
+		<Unit filename="Source/CIDEManager.cpp" />
+		<Unit filename="Source/CIDEManager.h" />
+		<Unit filename="Source/CIDESectionEntry.h" />
+		<Unit filename="Source/CIDESectionEntry_2DFX_Lights.h" />
+		<Unit filename="Source/CIDESectionEntry_2DFX_Particles.h" />
+		<Unit filename="Source/CIDESectionEntry_2DFX_Peds.h" />
+		<Unit filename="Source/CIDESectionEntry_2DFX_SunReflections.h" />
+		<Unit filename="Source/CIDESectionEntry_2DFX_Unknown1.h" />
+		<Unit filename="Source/CIDESectionEntry_ANIM.h" />
+		<Unit filename="Source/CIDESectionEntry_CARS.h" />
+		<Unit filename="Source/CIDESectionEntry_HAND.h" />
+		<Unit filename="Source/CIDESectionEntry_HIER.h" />
+		<Unit filename="Source/CIDESectionEntry_OBJS.h" />
+		<Unit filename="Source/CIDESectionEntry_PATH.h" />
+		<Unit filename="Source/CIDESectionEntry_PEDS.h" />
+		<Unit filename="Source/CIDESectionEntry_TOBJ.h" />
+		<Unit filename="Source/CIDESectionEntry_TXDP.h" />
+		<Unit filename="Source/CIDESectionEntry_WEAP.h" />
+		<Unit filename="Source/eIDEFileSection.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

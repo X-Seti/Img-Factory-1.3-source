@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MvecIMGManager" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Mvec IMG Manager" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="../GUI Utility/Source/" />
+					<Add directory="../String Utility/Source/" />
+					<Add directory="../Path Utility/Source/" />
+					<Add directory="../IMG Manager/Source/" />
+					<Add directory="../File Utility/Source/" />
+					<Add directory="../Registry Utility/Source/" />
+					<Add directory="../Crypto/Source/" />
+					<Add directory="../IDE Manager/Source/" />
+					<Add directory="../COL Manager/Source/" />
+					<Add directory="$(IncludePath)" />
+				</Compiler>
+				<Linker>
+					<Add library="GUI Utility.lib" />
+					<Add library="String Utility.lib" />
+					<Add library="Path Utility.lib" />
+					<Add library="IMG Manager.lib" />
+					<Add library="File Utility.lib" />
+					<Add library="Registry Utility.lib" />
+					<Add library="cryptopp.lib" />
+					<Add library="IDE Manager.lib" />
+					<Add library="COL Manager.lib" />
+					<Add directory="../Static Libraries" />
+					<Add directory="$(LibraryPath)" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Mvec IMG Manager" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add directory="../GUI Utility/Source/" />
+					<Add directory="../String Utility/Source/" />
+					<Add directory="../Path Utility/Source/" />
+					<Add directory="../IMG Manager/Source/" />
+					<Add directory="../File Utility/Source/" />
+					<Add directory="../Registry Utility/Source/" />
+					<Add directory="../Crypto/Source/" />
+					<Add directory="../IDE Manager/Source/" />
+					<Add directory="../COL Manager/Source/" />
+					<Add directory="$(IncludePath)" />
+				</Compiler>
+				<Linker>
+					<Add library="GUI Utility.lib" />
+					<Add library="String Utility.lib" />
+					<Add library="Path Utility.lib" />
+					<Add library="IMG Manager.lib" />
+					<Add library="File Utility.lib" />
+					<Add library="Registry Utility.lib" />
+					<Add library="cryptopp.lib" />
+					<Add library="IDE Manager.lib" />
+					<Add library="COL Manager.lib" />
+					<Add directory="../Static Libraries" />
+					<Add directory="$(LibraryPath)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Source/CMvecIMGManager.cpp" />
+		<Unit filename="Source/CMvecIMGManager.h" />
+		<Unit filename="Source/CViewInstance.cpp" />
+		<Unit filename="Source/CViewInstance.h" />
+		<Unit filename="Source/Globals.cpp" />
+		<Unit filename="Source/Globals.h" />
+		<Unit filename="Source/Mvec IMG Manager.rc" />
+		<Unit filename="Source/TXD Generator 2.cpp" />
+		<Unit filename="Source/TXD Generator 2.h" />
+		<Unit filename="Source/TXD Generator 2Dlg.cpp" />
+		<Unit filename="Source/TXD Generator 2Dlg.h" />
+		<Unit filename="Source/resource.h" />
+		<Unit filename="Source/stdafx.cpp" />
+		<Unit filename="Source/stdafx.h" />
+		<Unit filename="Source/targetver.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

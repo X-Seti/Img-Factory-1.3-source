@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="COLManager" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="COL Manager" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add directory="../File Parser/Source/" />
+					<Add directory="../File Writer/Source/" />
+					<Add directory="../String Utility/Source/" />
+					<Add directory="$(IncludePath)" />
+				</Compiler>
+				<Linker>
+					<Add directory="../Static Libraries" />
+					<Add directory="$(LibraryPath)" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="COL Manager" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add directory="../File Parser/Source/" />
+					<Add directory="../File Writer/Source/" />
+					<Add directory="../String Utility/Source/" />
+					<Add directory="$(IncludePath)" />
+				</Compiler>
+				<Linker>
+					<Add directory="../Static Libraries" />
+					<Add directory="$(LibraryPath)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Source/CCOLEntry.h" />
+		<Unit filename="Source/CCOLFile.cpp" />
+		<Unit filename="Source/CCOLFile.h" />
+		<Unit filename="Source/CCOLManager.cpp" />
+		<Unit filename="Source/CCOLManager.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
