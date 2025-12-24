@@ -1,0 +1,477 @@
+old_source/
+├── COL Manager
+│   ├── COL Manager.cbp
+│   ├── COL Manager.layout
+│   ├── COL Manager.vcxproj
+│   ├── COL Manager.vcxproj.filters
+│   ├── Debug
+│   │   └── COL Manager.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── COL Manager.lastbuildstate
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       └── Lib-link.write.1.tlog
+│   └── Source
+│       ├── CCOLEntry.h
+│       ├── CCOLFile.cpp
+│       ├── CCOLFile.h
+│       ├── CCOLManager.cpp
+│       └── CCOLManager.h
+├── Crypto
+│   ├── Crypto.layout
+│   ├── Debug
+│   │   ├── cryptlib_bds.obj
+│   │   ├── Crypto.tlog
+│   │   │   └── Crypto.lastbuildstate
+│   │   ├── fipsalgt.obj
+│   │   └── pch.obj
+│   └── Source
+│       ├── 3way.cpp
+│       ├── 3way.h
+│       ├── adler32.cpp
+│       ├── adler32.h
+│       ├── aes.h
+│       ├── algebra.cpp
+│       ├── algebra.h
+│       ├── algparam.cpp
+│       ├── arc4.cpp
+│       ├── arc4.h
+│       ├── argnames.h
+│       ├── authenc.cpp
+│       ├── authenc.h
+│       ├── base32.cpp
+│       ├── base32.h
+│       ├── base64.cpp
+│       ├── base64.h
+│       ├── basecode.cpp
+│       ├── basecode.h
+│       ├── bench.h
+│       ├── blowfish.cpp
+│       ├── blowfish.h
+│       ├── blumshub.cpp
+│       ├── blumshub.h
+│       ├── camellia.h
+│       ├── cast.h
+│       ├── cbcmac.cpp
+│       ├── cbcmac.h
+│       ├── ccm.cpp
+│       ├── ccm.h
+│       ├── channels.cpp
+│       ├── channels.h
+│       ├── cmac.cpp
+│       ├── cmac.h
+│       ├── cpu.cpp
+│       ├── cpu.h
+│       ├── crc.cpp
+│       ├── crc.h
+│       ├── cryptlib_bds.cpp
+│       ├── default.cpp
+│       ├── default.h
+│       ├── des.h
+│       ├── dessp.cpp
+│       ├── dh2.cpp
+│       ├── dh2.h
+│       ├── dh.cpp
+│       ├── dh.h
+│       ├── dll.cpp
+│       ├── dll.h
+│       ├── dlltest.cpp
+│       ├── dmac.h
+│       ├── dsa.cpp
+│       ├── dsa.h
+│       ├── eax.cpp
+│       ├── eax.h
+│       ├── ec2n.cpp
+│       ├── ec2n.h
+│       ├── ecp.h
+│       ├── elgamal.cpp
+│       ├── elgamal.h
+│       ├── emsa2.cpp
+│       ├── emsa2.h
+│       ├── eprecomp.cpp
+│       ├── eprecomp.h
+│       ├── esign.cpp
+│       ├── esign.h
+│       ├── factory.h
+│       ├── files.cpp
+│       ├── files.h
+│       ├── fips140.cpp
+│       ├── fips140.h
+│       ├── fltrimpl.h
+│       ├── gcm.h
+│       ├── gf2_32.cpp
+│       ├── gf2_32.h
+│       ├── gf256.cpp
+│       ├── gf256.h
+│       ├── gfpcrypt.cpp
+│       ├── gost.cpp
+│       ├── gost.h
+│       ├── gzip.cpp
+│       ├── gzip.h
+│       ├── hex.cpp
+│       ├── hex.h
+│       ├── hmac.cpp
+│       ├── hmac.h
+│       ├── hrtimer.cpp
+│       ├── hrtimer.h
+│       ├── ida.h
+│       ├── idea.cpp
+│       ├── idea.h
+│       ├── iterhash.cpp
+│       ├── iterhash.h
+│       ├── lubyrack.h
+│       ├── luc.cpp
+│       ├── luc.h
+│       ├── mars.cpp
+│       ├── mars.h
+│       ├── marss.cpp
+│       ├── md2.cpp
+│       ├── md2.h
+│       ├── md4.cpp
+│       ├── md4.h
+│       ├── md5.cpp
+│       ├── md5.h
+│       ├── mdc.h
+│       ├── misc.cpp
+│       ├── modarith.h
+│       ├── modes.cpp
+│       ├── modexppc.h
+│       ├── mqueue.cpp
+│       ├── mqueue.h
+│       ├── mqv.cpp
+│       ├── mqv.h
+│       ├── nbtheory.h
+│       ├── network.h
+│       ├── nr.h
+│       ├── oaep.cpp
+│       ├── oaep.h
+│       ├── oids.h
+│       ├── osrng.cpp
+│       ├── osrng.h
+│       ├── panama.h
+│       ├── pch.cpp
+│       ├── pch.h
+│       ├── pkcspad.cpp
+│       ├── pkcspad.h
+│       ├── pssr.cpp
+│       ├── pssr.h
+│       ├── pubkey.cpp
+│       ├── pwdbased.h
+│       ├── queue.h
+│       ├── rabin.cpp
+│       ├── rabin.h
+│       ├── randpool.cpp
+│       ├── randpool.h
+│       ├── rc2.cpp
+│       ├── rc2.h
+│       ├── rc5.cpp
+│       ├── rc5.h
+│       ├── rc6.cpp
+│       ├── rc6.h
+│       ├── rdtables.cpp
+│       ├── regtest.cpp
+│       ├── resource.h
+│       ├── rijndael.h
+│       ├── ripemd.h
+│       ├── rng.cpp
+│       ├── rng.h
+│       ├── rsa.cpp
+│       ├── rsa.h
+│       ├── rw.cpp
+│       ├── rw.h
+│       ├── safer.cpp
+│       ├── safer.h
+│       ├── salsa.h
+│       ├── seal.cpp
+│       ├── seal.h
+│       ├── seckey.h
+│       ├── seed.cpp
+│       ├── seed.h
+│       ├── serpent.cpp
+│       ├── serpent.h
+│       ├── serpentp.h
+│       ├── sha3.cpp
+│       ├── sha3.h
+│       ├── shacal2.cpp
+│       ├── shacal2.h
+│       ├── sha.h
+│       ├── shark.cpp
+│       ├── shark.h
+│       ├── simple.cpp
+│       ├── simple.h
+│       ├── skipjack.cpp
+│       ├── skipjack.h
+│       ├── smartptr.h
+│       ├── socketft.h
+│       ├── sosemanuk.h
+│       ├── square.cpp
+│       ├── square.h
+│       ├── stdcpp.h
+│       ├── strciphr.cpp
+│       ├── tea.cpp
+│       ├── tea.h
+│       ├── tiger.cpp
+│       ├── tiger.h
+│       ├── trdlocal.cpp
+│       ├── trdlocal.h
+│       ├── trunhash.h
+│       ├── ttmac.h
+│       ├── twofish.cpp
+│       ├── twofish.h
+│       ├── validate.h
+│       ├── vmac.h
+│       ├── wait.h
+│       ├── wake.cpp
+│       ├── wake.h
+│       ├── whrlpool.h
+│       ├── winpipes.cpp
+│       ├── winpipes.h
+│       ├── words.h
+│       ├── xtr.cpp
+│       ├── xtrcrypt.cpp
+│       ├── xtrcrypt.h
+│       ├── xtr.h
+│       ├── zdeflate.h
+│       ├── zinflate.h
+│       ├── zlib.cpp
+│       └── zlib.h
+├── Debugger
+│   ├── Debug
+│   │   ├── Debugger.Build.CppClean.log
+│   │   ├── Debugger.log
+│   │   └── Debugger.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── Debugger.lastbuildstate
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       └── Lib-link.write.1.tlog
+│   ├── Debugger.cbp
+│   ├── Debugger.layout
+│   ├── Debugger.vcxproj
+│   ├── Debugger.vcxproj.filters
+│   └── Source
+│       ├── CDebugger.cpp
+│       └── CDebugger.h
+├── File Parser
+│   ├── Debug
+│   │   ├── File Parser.Build.CppClean.log
+│   │   └── File Parser.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── File Parser.lastbuildstate
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       └── Lib-link.write.1.tlog
+│   ├── File Parser.cbp
+│   ├── File Parser.layout
+│   ├── File Parser.vcxproj
+│   ├── File Parser.vcxproj.filters
+│   └── Source
+│       ├── CFileParser.cpp
+│       └── CFileParser.h
+├── File Utility
+│   ├── Debug
+│   │   ├── File Utility.Build.CppClean.log
+│   │   ├── File Utility.log
+│   │   └── File Utility.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── File Utility.lastbuildstate
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       └── Lib-link.write.1.tlog
+│   ├── File Utility.cbp
+│   ├── File Utility.layout
+│   ├── File Utility.vcxproj
+│   ├── File Utility.vcxproj.filters
+│   └── Source
+│       ├── CFileUtility.cpp
+│       └── CFileUtility.h
+├── File Writer
+│   ├── Debug
+│   │   ├── File Writer.Build.CppClean.log
+│   │   ├── File Writer.log
+│   │   └── File Writer.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── File Writer.lastbuildstate
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       └── Lib-link.write.1.tlog
+│   ├── File Writer.cbp
+│   ├── File Writer.layout
+│   ├── File Writer.vcxproj
+│   ├── File Writer.vcxproj.filters
+│   └── Source
+│       ├── CFileWriter.cpp
+│       └── CFileWriter.h
+├── GUI Utility
+│   ├── Debug
+│   │   ├── GUI Utility.Build.CppClean.log
+│   │   ├── GUI Utility.tlog
+│   │   │   ├── cl.command.1.tlog
+│   │   │   ├── CL.write.1.tlog
+│   │   │   ├── GUI Utility.lastbuildstate
+│   │   │   ├── lib.command.1.tlog
+│   │   │   ├── Lib-link-cvtres.read.1.tlog
+│   │   │   ├── Lib-link-cvtres.write.1.tlog
+│   │   │   ├── rc.command.1.tlog
+│   │   │   ├── rc.read.1.tlog
+│   │   │   └── rc.write.1.tlog
+│   │   └── TextInputDialog.res
+│   ├── GUI Utility.cbp
+│   ├── GUI Utility.layout
+│   ├── GUI Utility.vcxproj
+│   ├── GUI Utility.vcxproj.filters
+│   └── Source
+│       ├── CGUIUtility.h
+│       ├── resource.h
+│       └── TextInputDialog.rc
+├── IDE Manager
+│   ├── Debug
+│   │   └── IDE Manager.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── IDE Manager.lastbuildstate
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       └── Lib-link.write.1.tlog
+│   ├── IDE Manager.cbp
+│   ├── IDE Manager.layout
+│   ├── IDE Manager.vcxproj
+│   ├── IDE Manager.vcxproj.filters
+│   └── Source
+│       ├── CIDEFile.cpp
+│       ├── CIDEFile.h
+│       ├── CIDEManager.h
+│       ├── CIDESectionEntry_2DFX_Lights.h
+│       ├── CIDESectionEntry_2DFX_Particles.h
+│       ├── CIDESectionEntry_2DFX_Peds.h
+│       ├── CIDESectionEntry_2DFX_SunReflections.h
+│       ├── CIDESectionEntry_2DFX_Unknown1.h
+│       ├── CIDESectionEntry_ANIM.h
+│       ├── CIDESectionEntry_CARS.h
+│       ├── CIDESectionEntry.h
+│       ├── CIDESectionEntry_HAND.h
+│       ├── CIDESectionEntry_HIER.h
+│       ├── CIDESectionEntry_OBJS.h
+│       ├── CIDESectionEntry_PATH.h
+│       ├── CIDESectionEntry_PEDS.h
+│       ├── CIDESectionEntry_TOBJ.h
+│       ├── CIDESectionEntry_TXDP.h
+│       ├── CIDESectionEntry_WEAP.h
+│       └── eIDEFileSection.h
+├── IMG Manager
+│   ├── Debug
+│   │   ├── IMG Manager.Build.CppClean.log
+│   │   └── IMG Manager.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── IMG Manager.lastbuildstate
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       └── Lib-link.write.1.tlog
+│   ├── IMG Manager.cbp
+│   ├── IMG Manager.layout
+│   ├── IMG Manager.vcxproj
+│   ├── IMG Manager.vcxproj.filters
+│   └── Source
+│       ├── CIMGEntry.h
+│       ├── CIMGFile.cpp
+│       ├── CIMGFile.h
+│       ├── CIMGManager.h
+│       └── Rijndael.h
+├── imgmanger.png
+├── Mvec IMG Manager
+│   ├── Debug
+│   │   ├── Globals.obj
+│   │   ├── Mvec IMG Manager - Alpha.Build.CppClean.log
+│   │   ├── Mvec IMG Manager.Build.CppClean.log
+│   │   ├── Mvec IMG Manager.res
+│   │   └── Mvec IMG Manager.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── link.command.1.tlog
+│   │       ├── link.read.1.tlog
+│   │       ├── link.write.1.tlog
+│   │       ├── Mvec IMG Manager.lastbuildstate
+│   │       ├── rc.command.1.tlog
+│   │       ├── rc.read.1.tlog
+│   │       └── rc.write.1.tlog
+│   ├── Mvec IMG Manager.cbp
+│   ├── Mvec IMG Manager.layout
+│   ├── Mvec IMG Manager.vcxproj
+│   ├── Mvec IMG Manager.vcxproj.filters
+│   └── Source
+│       ├── CMvecIMGManager.h
+│       ├── CViewInstance.h
+│       ├── Globals.cpp
+│       ├── Globals.h
+│       ├── Mvec IMG Manager.rc
+│       ├── resource.h
+│       ├── stdafx.cpp
+│       ├── stdafx.h
+│       ├── targetver.h
+│       ├── TXD Generator 2.cpp
+│       ├── TXD Generator 2Dlg.h
+│       └── TXD Generator 2.h
+├── Mvec IMG Manager.sln
+├── Path Utility
+│   ├── Debug
+│   │   ├── Path Utility.Build.CppClean.log
+│   │   ├── Path Utility.log
+│   │   └── Path Utility.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       ├── Lib-link.write.1.tlog
+│   │       └── Path Utility.lastbuildstate
+│   ├── Path Utility.cbp
+│   ├── Path Utility.layout
+│   ├── Path Utility.vcxproj
+│   ├── Path Utility.vcxproj.filters
+│   └── Source
+│       ├── CPathUtility.cpp
+│       └── CPathUtility.h
+├── Registry Utility
+│   ├── Debug
+│   │   ├── Registry Utility.Build.CppClean.log
+│   │   ├── Registry Utility.log
+│   │   └── Registry Utility.tlog
+│   │       ├── cl.command.1.tlog
+│   │       ├── CL.write.1.tlog
+│   │       ├── lib.command.1.tlog
+│   │       ├── Lib-link.read.1.tlog
+│   │       ├── Lib-link.write.1.tlog
+│   │       └── Registry Utility.lastbuildstate
+│   ├── Registry Utility.cbp
+│   ├── Registry Utility.layout
+│   ├── Registry Utility.vcxproj
+│   ├── Registry Utility.vcxproj.filters
+│   └── Source
+│       ├── CRegistryUtility.cpp
+│       └── CRegistryUtility.h
+├── Static Libraries
+│   └── cryptopp.exp
+└── String Utility
+    ├── Debug
+    │   ├── String Utility.Build.CppClean.log
+    │   ├── String Utility.log
+    │   └── String Utility.tlog
+    │       ├── cl.command.1.tlog
+    │       ├── CL.write.1.tlog
+    │       ├── lib.command.1.tlog
+    │       ├── Lib-link.read.1.tlog
+    │       ├── Lib-link.write.1.tlog
+    │       └── String Utility.lastbuildstate
+    ├── Source
+    │   ├── CStringUtility.cpp
+    │   └── CStringUtility.h
+    ├── String Utility.cbp
+    ├── String Utility.layout
+    ├── String Utility.vcxproj
+    └── String Utility.vcxproj.filters
+
+54 directories, 421 files
