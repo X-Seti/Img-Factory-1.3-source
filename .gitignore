@@ -1,13 +1,12 @@
-```
 # Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
-*.so
-*.dll
 *.exe
-*.class
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
@@ -64,4 +63,7 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-```
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
