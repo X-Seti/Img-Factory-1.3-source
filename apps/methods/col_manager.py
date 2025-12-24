@@ -3,10 +3,16 @@
 COL Manager - Handles parsing and managing COL files.
 """
 
-from .col_parser import COLFile, COLEntry
-from .file_parser import FileParser
-from .file_writer import FileWriter
-from .string_utility import StringUtility
+import sys
+import os
+# Add the methods directory to the Python path
+methods_dir = os.path.dirname(__file__)
+sys.path.insert(0, methods_dir)
+
+from col_parser import COLFile, COLEntry
+from file_parser import FileParser
+from file_writer import FileWriter
+from string_utility import StringUtility
 
 class COLManager:
     """
