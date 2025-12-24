@@ -1252,13 +1252,13 @@ class IMGFactory(QMainWindow):
 
         # Add missing functions for menu system
         self.save_img_as = self._save_img_as
-        self.save_img_entry = self._save_img_entry  # Main save function with modification check
+        # self.save_img_entry = self._save_img_entry  # Main save function with modification check - DISABLED to use integrated version
         self.find_entries = self._find_entries
         self.find_next_entries = self._find_next_entries
         self.duplicate_selected = self._duplicate_selected
         self.rename_entry = self._rename_entry
         self.rename_selected = self._rename_selected
-        self.remove_selected = self._remove_selected_entries
+        # self.remove_selected = self._remove_selected_entries  # DISABLED to use integrated version
         self.select_inverse_entries = self._select_inverse_entries
         self.extract_textures = lambda: extract_textures_function(self)
         # NEW: Add extract DFF texture lists functionality

@@ -392,5 +392,92 @@ __all__ = [
     'write_img_directory', 
     'consolidate_img_data',
     'cleanup_temp_files',
-    'log_operation_progress'
+def install_shared_img_operations(main_window):
+    """Install shared IMG operations with placeholder functions"""
+    try:
+        # Create placeholder functions that log operations instead of performing them
+        def shared_remove_entry(img_file, entry_name):
+            """Placeholder for shared remove entry operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message(f"PLACEHOLDER: Would remove entry '{entry_name}' from IMG")
+            return True  # Placeholder returns success
+        
+        def shared_remove_entries_via(img_file, entry_list):
+            """Placeholder for shared remove entries via list operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message(f"PLACEHOLDER: Would remove {len(entry_list)} entries from IMG")
+            return True  # Placeholder returns success
+            
+        def shared_import_file(img_file, file_path, target_name=None):
+            """Placeholder for shared import file operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message(f"PLACEHOLDER: Would import '{file_path}' to IMG as '{target_name or os.path.basename(file_path)}'")
+            return True  # Placeholder returns success
+            
+        def shared_import_files_via(img_file, file_paths):
+            """Placeholder for shared import files via list operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message(f"PLACEHOLDER: Would import {len(file_paths)} files to IMG")
+            return True  # Placeholder returns success
+            
+        def shared_split_img(img_file, split_criteria):
+            """Placeholder for shared split IMG operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message(f"PLACEHOLDER: Would split IMG based on {split_criteria}")
+            return True  # Placeholder returns success
+            
+        def shared_rebuild_img(img_file, options=None):
+            """Placeholder for shared rebuild IMG operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message(f"PLACEHOLDER: Would rebuild IMG with options: {options}")
+            return True  # Placeholder returns success
+            
+        def shared_save_img(img_file, backup=True):
+            """Placeholder for shared save IMG operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message(f"PLACEHOLDER: Would save IMG with backup={backup}")
+            return True  # Placeholder returns success
+            
+        def shared_validate_img(img_file):
+            """Placeholder for shared validate IMG operation"""
+            if hasattr(main_window, 'log_message'):
+                main_window.log_message("PLACEHOLDER: Would validate IMG structure")
+            return True, []  # Placeholder returns success with no errors
+            
+        # Attach functions to main window
+        main_window.shared_remove_entry = shared_remove_entry
+        main_window.shared_remove_entries_via = shared_remove_entries_via
+        main_window.shared_import_file = shared_import_file
+        main_window.shared_import_files_via = shared_import_files_via
+        main_window.shared_split_img = shared_split_img
+        main_window.shared_rebuild_img = shared_rebuild_img
+        main_window.shared_save_img = shared_save_img
+        main_window.shared_validate_img = shared_validate_img
+        
+        if hasattr(main_window, 'log_message'):
+            main_window.log_message("Shared IMG operations installed (placeholder functions)")
+        
+        return True
+    except Exception as e:
+        if hasattr(main_window, 'log_message'):
+            main_window.log_message(f"Error installing shared IMG operations: {str(e)}")
+        return False
+
+
+# Export essential functions
+__all__ = [
+    'create_progress_callback',
+    'sanitize_filename', 
+    'get_img_version_info',
+    'calculate_sector_aligned_size',
+    'create_temp_file_path',
+    'atomic_file_replace',
+    'validate_img_structure',
+    'get_entry_data_safely',
+    'write_img_header',
+    'write_img_directory', 
+    'consolidate_img_data',
+    'cleanup_temp_files',
+    'log_operation_progress',
+    'install_shared_img_operations'
 ]
