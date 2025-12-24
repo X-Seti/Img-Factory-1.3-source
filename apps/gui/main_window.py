@@ -22,7 +22,6 @@ try:
     from .tear_off import TearOffPanelManager, setup_tear_off_system
     from .log_panel import create_log_panel, setup_logging_for_main_window
     from .status_bar import create_status_bar
-    from .gui_layout import IMGFactoryGUILayout
 except ImportError as e:
     print(f"Import error in main_window: {e}")
     # Fallback - create minimal stubs
@@ -34,8 +33,6 @@ except ImportError as e:
         return QWidget()
     def create_status_bar(main_window):
         return QStatusBar()
-    class IMGFactoryGUILayout:
-        def __init__(self, main_window): pass
     class PanelManager:
         def __init__(self, main_window): pass
     class TearOffPanelManager:
@@ -213,16 +210,6 @@ class IMGFactoryMainWindow(QMainWindow):
         
         # Set splitter proportions (70% left, 30% right)
         self.splitter.setSizes([700, 300])
-        
-        # Initialize GUI layout in the left panel
-        try:
-            from .gui_layout import IMGFactoryGUILayout
-            self.gui_layout = IMGFactoryGUILayout(self)
-            # Set up the GUI layout in the left panel
-            layout = QVBoxLayout(self.left_panel)
-            layout.addWidget(self.gui_layout.create_main_layout_widget())
-        except Exception as e:
-            print(f"Error setting up GUI layout: {e}")
     
     def setup_panels(self):
         """Setup panel management system"""
