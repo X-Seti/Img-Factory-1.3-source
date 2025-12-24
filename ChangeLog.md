@@ -30,3 +30,9 @@ Port from MexUK Img Factory 1.2
   - /apps/Img_Factory/Img_Factory.py (placeholder)
 
 - Updated project to Python implementation while preserving original functionality
+
+### December 24, 2025
+- Created launcher.py in /apps/Img_Factory/ to connect GUI with converted methods
+- Created root launcher.py for easy execution from project root
+- Connected preserved gui_layout.py with converted Python methods
+- Maintained 100% original functionality in converted methods
