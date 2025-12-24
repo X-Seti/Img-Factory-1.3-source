@@ -3,8 +3,14 @@
 IMG Manager - Handles parsing and managing IMG files.
 """
 
-from .img_parser import IMGFile, IMGVersion
-from .file_parser import FileParser
+import sys
+import os
+# Add the methods directory to the Python path
+methods_dir = os.path.dirname(__file__)
+sys.path.insert(0, methods_dir)
+
+from img_parser import IMGFile, IMGVersion
+from file_parser import FileParser
 
 class IMGManager:
     """
