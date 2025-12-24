@@ -45,7 +45,12 @@ Converted core C++ functionality to Python for the IMG Factory 1.5 project while
 - String manipulation functions for binary data
 - Original functionality for COL and IMG file processing
 
+## Launchers Created
+- `/launcher.py` - Root launcher for easy execution from project root
+- `/apps/Img_Factory/launcher.py` - App-specific launcher
+
 ## Notes
 - GUI functionality will need to be updated separately to work with Python (replacing dx9, opencl, QT6 dependencies)
 - The gui_layout.py file structure is preserved as requested
 - All original functionality is maintained while converting to Python
+- Launchers connect the preserved GUI layout with converted Python methods
